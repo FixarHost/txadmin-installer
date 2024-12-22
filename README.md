@@ -5,7 +5,7 @@ This is a script for the automatic installation of **txAdmin** and everything ne
 
 ## Help and Support
 
-If you have any questions or need assistance, you can join our Discord server for support and additional questions. [Join our Discord](https://discord.gg/Q7A7RPDSDQ) 🎮
+If you have any questions or need assistance, you can join our Discord server for support and additional questions. [Join our Discord](https://discord.gg/Q7A7RPDSDQ) 🎟
 
 ## Supported Installations
 
