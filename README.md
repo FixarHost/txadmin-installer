@@ -68,10 +68,9 @@ After installation, you can access the following services:
 
 ## Contributors
 
-**Copyright 2024 - 2025**  
-**Aleksandar Ivanov** from **FixarHost LTD**  
-Email: [aleksandar.ivanov@fixarhost.com](mailto:aleksandar.ivanov@fixarhost.com)
+**Copyright © 2024-2025 FixarHost Ltd. Company number: 15980077**
 
 **Created by:** [Aleksandar Ivanov](https://github.com/NekotinaX)
-
 **Maintained by:** the team at **FixarHost**
+
+
