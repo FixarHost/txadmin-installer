@@ -73,4 +73,5 @@ After installation, you can access the following services:
 Email: [aleksandar.ivanov@fixarhost.com](mailto:aleksandar.ivanov@fixarhost.com)
 
 **Created by:** [Aleksandar Ivanov](https://github.com/NekotinaX)
+
 **Maintained by:** the team at **FixarHost**
