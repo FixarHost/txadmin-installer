@@ -35,7 +35,7 @@ If you have any questions or need assistance, you can join our Discord server fo
 ## Using the Installation Scripts
 
 To automatically install the script, use the following command:
-**[Video tutorial 🎥]()**
+- **[Video tutorial 🎥]()**
 
 ```bash
 bash <(curl -s https://fixar.host/script/txadmin.sh)
