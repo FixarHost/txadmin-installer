@@ -49,7 +49,7 @@ To verify the four-digit verification code, use the command:
 ```bash
 nano /root/fivem/txadmin_output.log
 ```
-![](https://fixarhost.com/script/txadmin-pin.png)
+![](https://fixarhost.com/script/txadmin-code.png)
 
 This command will open the log file where you can see the login code. This procedure is executed only once after installation.
 
