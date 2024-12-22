@@ -1,70 +1,78 @@
 
-# Инсталационен скрипт за txAdmin
+# txAdmin Installation Script
 
-Това е скрипт за автоматична инсталация на txAdmin и всичко нужно за стартиране на гейм сървър, поддържан от txAdmin. Скриптът инсталира уеб сървър (Apache2) и PHP, които са необходими за стартирането на phpMyAdmin, чрез който можете да управлявате базата данни на вашия сървър. Освен това, скриптът инсталира MariaDB за създаване на базата данни и автоматично създава потребителя за нея.
+This is a script for the automatic installation of **txAdmin** and everything needed to run a game server supported by **txAdmin**. The script installs **Apache2** (web server) and **PHP**, which are required to run **phpMyAdmin** — a tool to manage your server's database. Additionally, it installs **MariaDB** to create the database and automatically creates a user for it.
 
-## Помощ и поддръжка
+## Help and Support
 
-Ако имате въпроси или нужда от помощ, можете да се присъедините към нашия Discord сървър за поддръжка и допълнителни въпроси.
+If you have any questions or need assistance, you can join our Discord server for support and additional questions. [Join our Discord](https://discord.gg/Q7A7RPDSDQ) 🎮
 
-## Поддържани инсталации
+## Supported Installations
 
-| Операционна система | Версия | Поддържа се |
-|---------------------|--------|-------------|
-| **Ubuntu**           | 14.04  | 🔴          |
-|                     | 16.04  | 🔴          |
-|                     | 18.04  | 🔴          |
-|                     | 20.04  | ✅          |
-|                     | 22.04  | ✅          |
-|                     | 24.04  | ✅          |
-| **Debian**           | 8      | 🔴          |
-|                     | 9      | 🔴          |
-|                     | 10     | ✅          |
-|                     | 11     | ✅          |
-|                     | 12     | ✅          |
-| **CentOS**           | 6      | 🔴          |
-|                     | 7      | 🔴          |
-|                     | 8      | 🔴          |
-| **Rocky Linux**      | 8      | 🔴          |
-|                     | 9      | 🔴          |
-| **AlmaLinux**        | 8      | 🔴          |
-|                     | 9      | 🔴          |
+| Operating System     | Version | Supported   |
+|----------------------|---------|-------------|
+| **Ubuntu**           | 14.04   | 🔴          |
+|                      | 16.04   | 🔴          |
+|                      | 18.04   | 🔴          |
+|                      | 20.04   | ✅          |
+|                      | 22.04   | ✅          |
+|                      | 24.04   | ✅          |
+| **Debian**           | 8       | 🔴          |
+|                      | 9       | 🔴          |
+|                      | 10      | ✅          |
+|                      | 11      | ✅          |
+|                      | 12      | ✅          |
+| **CentOS**           | 6       | 🔴          |
+|                      | 7       | 🔴          |
+|                      | 8       | 🔴          |
+| **Rocky Linux**      | 8       | 🔴          |
+|                      | 9       | 🔴          |
+| **AlmaLinux**        | 8       | 🔴          |
+|                      | 9       | 🔴          |
 
-*Очаквайте в близко бъдеще подобрения и поддръжка на повече версии.*
+*Expect improvements and support for more versions soon.* 🚀
 
-## Използване на инсталационните скриптове
+## Using the Installation Scripts
 
-За автоматична инсталация на скрипта, използвайте следната команда:
+To automatically install the script, use the following command:
 
 ```bash
 bash <(curl -s https://fixar.host/script/txadmin.sh)
 ```
 
-Тази команда ще изтегли и стартира скрипта, който ще инсталира **MariaDB**, **Apache2**, **PHP**, както и ще конфигурира **txadmin** и **MySQL потребители**.
+This command will download and start the script, which will install **MariaDB**, **Apache2**, **PHP**, and configure **txAdmin** and **MySQL users**.
 
-За проверяване на четири цифрения кода за верификация, използвайте командата:
+### Verification Code Check
+
+To verify the four-digit verification code, use the command:
 
 ```bash
 nano /root/fivem/txadmin_output.log
 ```
 
-Тази команда ще отвори лог файла, където ще можете да видите кода за вход в системата тази процедура се изпълнява еднократно след инсталация.
-за да излезете от интерфейса на nano трябва да натиснете CONTROL + X и после N 
+This command will open the log file where you can see the login code. This procedure is executed only once after installation.
 
+### Exiting nano
 
-### Достъп до txAdmin и phpMyAdmin
+To exit the **nano** editor, press **Ctrl + X** and then **N** (No) to avoid saving any changes.
 
-- **txAdmin** на следния адрес:  
-  `http://<Вашият_IP>:<Порт>`
+## Accessing txAdmin and phpMyAdmin
 
-- **phpMyAdmin** на следния адрес:  
-  `http://<Вашият_IP>/phpmyadmin`
+After installation, you can access the following services:
 
-## Сътрудници
+- **txAdmin** at the following address:  
+  `http://<Your_IP>:<Port>` 🌐
 
-**Авторско право 2024 - 2025**  
-**Aleksandar Ivanov** от екипа на **FixarHost LTD**  
-Имейл: [aleksandar.ivanov@fixarhost.com](mailto:aleksandar.ivanov@fixarhost.com)
+- **phpMyAdmin** at the following address:  
+  `http://<Your_IP>/phpmyadmin` 🔑
 
-**Създаден от:** Aleksandar Ivanov  
-**Поддържа се от:** екипа на **FixarHost**
+## Contributors
+
+**Copyright 2024 - 2025**  
+**Aleksandar Ivanov** from **FixarHost LTD**  
+Email: [aleksandar.ivanov@fixarhost.com](mailto:aleksandar.ivanov@fixarhost.com)
+
+**Created by:** Aleksandar Ivanov  
+**Maintained by:** the team at **FixarHost**
+
+👨‍💻 **GitHub profile of Aleksandar Ivanov**: [Click here for GitHub](https://github.com/NekotinaX)
