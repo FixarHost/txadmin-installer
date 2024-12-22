@@ -71,6 +71,8 @@ After installation, you can access the following services:
 **Copyright © 2024-2025 FixarHost Ltd. Company number: 15980077**
 
 **Created by: [Aleksandar Ivanov](https://github.com/NekotinaX)**
+
 **Maintained by:** the team at **FixarHost**
+
 
 
