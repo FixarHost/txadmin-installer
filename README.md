@@ -71,9 +71,8 @@ After installation, you can access the following services:
 
 **Copyright © 2024-2025 [FixarHost Ltd](https://find-and-update.company-information.service.gov.uk/company/15980077). Company number: [15980077](https://find-and-update.company-information.service.gov.uk/company/15980077)**
 
-**Created by: [Aleksandar Ivanov](https://github.com/NekotinaX)**
-
-**Maintained by:** the team at **FixarHost**
+- **Created by: [Aleksandar Ivanov](https://github.com/NekotinaX)**
+- **Maintained by:** the team at **FixarHost**
 
 
 
